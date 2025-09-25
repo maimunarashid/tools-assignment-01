@@ -1,93 +1,104 @@
+/* Google font for heading */
 .noto-serif{
   font-family: "Noto Serif", serif;
   font-style: normal;
 }
 
-
+/* Google font for paragraph */
 .inter{
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
+/* for all section which has 150 left and right margin */
 .section-margin{
   margin-left: 150px;
   margin-right: 150px;
 }
+
+/* specifically orange color for particular word */
 .span-color{
 color: #E95A08;
 }
+
+/* gray black color - with 40% opacity in black */
 p{
   color: #00000080;
 }
+
+/* as all paragraph grayBlackColor except it so it has to be changed as figma */
 .card-p{
   color: #111111;
 }
+
+/* all button */
 .btn-cart{
   color: #ffffff;
-  padding: 26px 50px;
   background-color: #E95A08;
   font-size: 16px;
   font-weight:600;
 }
-.grid-cards{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-.trusted-badge{
-position: absolute;
-top: 2125px;
-left: 500px;
 
-}
-
+/* for all list of trusted badge section */
 li{
   color: #00000080;
 }
+
+/* three image in one section */
+/* image one */
 .img-text1{
   color: #ffffff;
   background-image: url('../assets/deal-bloom.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 450px;
-  height: 200px;
   margin-bottom: 25px;
   border-radius: 14px;
 }
+/* image two */
 .img-text2{
   color: #ffffff;
   background-image: url('../assets/deal-ana.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 450px;
-  height: 200px;
   border-radius: 14px;
 }
+/* image three */
 .img-text3{
   color: #ffffff;
   background-image: url('../assets/deal-zabo.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 753px;
   border-radius: 22px;
-  padding: 26px 50px;
 }
+
+/* input with subscribe section */
 .img4{
   background-image: url('../assets/news-letter-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 533px;
   color: #ffffff;
 }
+/* input write email type */
 input{
   color: #00000080;
   background-color: #ffffff;
-  padding: 15px 50px 15px 10px;
   width: 100%;
 }
+/* button subscribe */
+.btn-cart1{
+  color: #ffffff;
+  padding: 20px 30px;
+  background-color: #E95A08;
+  font-size: 16px;
+  font-weight:600;
+}
 
+/* footer section */
 .footer{
   padding: 50px 160px;
 }
+
+/* footer color for paragraphUnderLogo and all the anchor tag (lists) */
 .footer-color{
   color: #00000080;
 }
